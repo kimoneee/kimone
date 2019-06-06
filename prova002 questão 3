@@ -1,0 +1,6 @@
+#include<stdio.h>
+void main(){
+
+void trocar (char* a[10]){
+for int i=0;<:i+++){
+int array[10]
