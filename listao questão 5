@@ -1,0 +1,24 @@
+#include <stdio.h>
+void main(){
+float soma, sub, mult, divisao;
+for(int cont = 1; cont < 10; cont++){
+soma = (num + cont);
+printf('A tabuada do %d é: %d + %d = %',if\n', cont, num , cont, soma);
+}
+for(int s + 0; s < = 10; s++){
+if(s >= cont){
+sub = (s - cont);
+printf('A tabuada do %d é: %d - %d = %',if\n', cont, s, cont, sub);
+}else{
+sub = (cont - s);
+printf('A tabuada do %d é : %d - %d = %',if\n', cont, cont, S, sub);}
+}
+for (int m = 0; m <= 10: m++){
+mult = (m * cont);
+printf('A tabuada do %d é: %d + %d  = %'.if\n', cont, m. cont, mult);
+}
+for(int d = 0; d <= 10: d++){
+divisao = (d / cont);
+printf ('A tabuada do %d é: %d / %d = %',if/n',cont, d, cont, divisao);
+
+
