@@ -1,4 +1,4 @@
-#include<stdio.h>void main(){         else if (x < 0 && y > 0){
+#include<stdio.h>void main(){         
 void main (){
 float x , y;
 printf("informe o valor de x: \n");
@@ -6,8 +6,16 @@ scanf("%f", &x);
 printf("informe o valor  de Y:\n");
 scanf("%f',&y);
 if(x > 0 && Y > 0){
-printf("\t0 valor de x: %',2f e de y: %', 2f pertencem o quadrante \n",x,y);}
-else if (X < 0 && y > 0){
+printf("\t0 valor de x: %',2f e de y: %', 2f pertencem ao  1 quadrante\n",x,y);
+}else if (X < 0 && y > 0){
+printf("\t0 valor de x: %',2f e de y: %,'2f e de y: %',2f pertecem ao 2 quadrante\n", x, y);
+}else if(x < 0 && y > 0 ){
+printf("\t0 valor de x: %',2f e de y: %',2f e de y: %, 2f pertecem ao 3 quadrante\n", x, y);
+}else if(X < 0 && Y > 0 ){
+printf("\t0 valor de x: %',2f e de y: %,2f e de y: %, 2f pertecem ao 4 quadrante\n", x,y);
+}else{
+printf ("\tvalor invalido\n");}
+}
 
 
 
